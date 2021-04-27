@@ -10,6 +10,7 @@
         @font-face {
             font-family: 'Corporate Logo Rounded ver2';
             src: url('font/Corporate-Logo-Rounded.ttf');
+            font-display: swap;
         }
 
 
@@ -70,6 +71,21 @@
             border-radius: 0.25em;
         }
 
+        .readmore {
+            font-weight: bold;
+            padding-top: 20px;
+            display: block;
+        }
+
+        .readmore:link,
+        .readmore:visited {
+            color: #608959;
+        }
+
+        .readmore:hover {
+            color: black;
+        }
+
         li {
             display: inline-block;
 
@@ -81,12 +97,12 @@
 
         }
 
-        a:link,
-        a:visited {
+        .navlink:link,
+        .navlink:visited {
             color: #4C4949;
         }
 
-        a:hover {
+        .navlink:hover {
             color: #608959;
         }
 
@@ -132,7 +148,11 @@
 
 
         .link {
-            color: #608959;
+            color: #C1D8AC;
+        }
+
+        .link:hover {
+            color: black;
         }
     </style>
 
@@ -154,9 +174,11 @@
 
         <div>
             <h1 class="maintext"><span class="greeting">はじめまして､</span><br>My name is Kotomi Cogdill.</h1>
-            Billingual UX/UI designer based in the Bay Area. <br>
+            Billingual UX/UI designer based in <a class="link" href="https://www.google.com/maps/place/San+Francisco+Bay+Area,+CA/@37.8738836,-123.5414908,8z/data=!3m1!4b1!4m5!3m4!1s0x808583a3a688d7b5:0x8c891b8457461fa9!8m2!3d37.8271784!4d-122.2913078">the Bay Area.</a> <br>
             Creating visually aesthetic designs that bring users <br>
-            happy experience is my new <a class="link" href="https://en.wikipedia.org/wiki/Ikigai">ikigai</a>.
+            happy experience is my new <a class="link" href="https://en.wikipedia.org/wiki/Ikigai">ikigai</a>.<br>
+
+            <a class="readmore" href="https://trydesignlab.com/academy/interaction-design/3/">Read more</a>
 
         </div>
 
