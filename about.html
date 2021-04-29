@@ -52,75 +52,6 @@
         }
 
 
-        #about {
-            display: flex;
-            justify-content: space-around;
-            padding: 0 10%;
-            flex-wrap: wrap;
-            padding-top: 100px;
-            align-items: center;
-
-        }
-
-
-        .greeting {
-            position: relative;
-        }
-
-        .japanese {
-            font-family: 'Corporate Logo Rounded ver2';
-        }
-
-        .english {
-            display: none;
-        }
-
-        .translate:hover .japanese {
-            display: none;
-
-        }
-
-        .translate:hover .english {
-            display: inline;
-
-        }
-
-
-        .greeting::after {
-            display: block;
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 0.3em;
-            background: #c1d8ac;
-            z-index: -1;
-            border-radius: 0.25em;
-        }
-
-        .japanese::after {
-            bottom: -0.1em;
-        }
-
-        .english::after {
-            bottom: 0.2em;
-        }
-
-        .readmore {
-            font-weight: bold;
-            padding-top: 20px;
-            display: flex;
-            align-items: center;
-        }
-
-        .readmore:link,
-        .readmore:visited {
-            color: #608959;
-        }
-
-        .readmore:hover {
-            color: #4C4949;
-        }
-
         .navlink:link,
         .navlink:visited {
             color: #4C4949;
@@ -135,11 +66,19 @@
             display: flex;
 
         }
-
-        a {
+        
+         a {
             transition: color 500ms ease;
         }
+     
 
+        .link {
+            color: #C1D8AC;
+        }
+
+        .link:hover {
+            color: #4C4949;
+        }
         .work {
             padding: -10vw;
             margin: 0;
@@ -177,28 +116,7 @@
             padding-top: 100px;
         }
 
-        .illustration {
-            height: 700px;
-            width: 700px;
-            float: right;
-
-        }
-
-
-        .link {
-            color: #C1D8AC;
-        }
-
-        .link:hover {
-            color: #4C4949;
-        }
-
-        .arrow {
-            fill: currentColor;
-            height: 1em;
-            width: 1em;
-            margin-left: 0.25em;
-        }
+       
     </style>
 
 
@@ -230,30 +148,6 @@
     </div>
 
 
-    <div id="about">
-
-        <div>
-            <h1>
-                <div class="translate"><span class="greeting japanese">はじめまして､</span><span class="greeting english">Nice to meet you,</span>
-                </div>My name is Kotomi
-                Cogdill.
-            </h1>
-            Billingual UX/UI designer based in <a class="link"
-                href="https://www.google.com/maps/place/San+Francisco+Bay+Area,+CA/@37.8738836,-123.5414908,8z/data=!3m1!4b1!4m5!3m4!1s0x808583a3a688d7b5:0x8c891b8457461fa9!8m2!3d37.8271784!4d-122.2913078">the
-                Bay Area.</a> <br>
-            Creating visually aesthetic designs that bring users <br>
-            happy experience is my new <a class="link" href="https://en.wikipedia.org/wiki/Ikigai">ikigai</a>.<br>
-
-            <a class="readmore" href="about.html">Read more ➜</a>
-
-        </div>
-
-
-        <img class="illustration" src="img/kotomidrawing.png" alt="kotomi is studying with her dogs"></a>
-
-
-
-    </div>
 
     <div id="work">
 
@@ -261,8 +155,6 @@
             <path
                 d="M0 86.4L80.174 64.487C159.722 43.2 320.07 0 479.791 0C640.139 0 799.861 43.2 960.209 50.713C1119.93 57.6 1280.28 28.8 1359.83 14.4L1440 0V216H1359.83C1280.28 216 1119.93 216 960.209 216C799.861 216 640.139 216 479.791 216C320.07 216 159.722 216 80.174 216H0V86.4Z" />
         </svg>
-
-
 
 
 
@@ -288,7 +180,6 @@
             </svg>
         </div>
     
-
 
 </body>
 
