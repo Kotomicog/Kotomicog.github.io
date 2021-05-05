@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;700&display=swap');
+
+@font-face {
+    font-family: 'Corporate Logo Rounded ver2';
+    src: url('font/Corporate-Logo-Rounded.ttf');
+    font-display: swap;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #4C4949;
+    margin: 0;
+    font-family: 'Baloo Chettan 2';
+    background-color: white;
+    font-size: 24px;
+}
+
+a {
+    transition: color 500ms ease;
+}
+
+p {
+    font-weight: 700;
+}
+
+.nav {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    font-weight: 700;
+    
+    z-index: 1;
+}
+
+.nav-content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    
+}
+
+
+.navlink {
+    padding: 20px 0 20px 40px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.navlinks {
+    text-align: right;
+}
+
+.navlink:link,
+.navlink:visited {
+    color: #4C4949;
+}
+
+.navlink:hover {
+    color: #608959;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    align-items: center;
+}
+
+
+
+.illustration {
+    max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .illustration {
+        max-width: 100%;
+
+    }
+}
+
+
+.greeting {
+    position: relative;
+}
+
+.japanese {
+    font-family: 'Corporate Logo Rounded ver2';
+}
+
+.english {
+    display: none;
+}
+
+.translate {
+    display: block;
+
+}
+
+.translate:hover .japanese {
+    display: none;
+
+}
+
+.translate:hover .english {
+    display: inline;
+
+}
+
+
+.greeting::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3em;
+    background: #c1d8ac;
+    z-index: -1;
+    border-radius: 0.25em;
+}
+
+.japanese::after {
+    bottom: -0.1em;
+}
+
+.english::after {
+    bottom: 0.2em;
+}
+
+
+
+
+.rectangle {
+    background-color: #C1D8AC;
+}
+
+.wave {
+    display: block;
+    fill: #C1D8AC;
+    fill-opacity: 1;
+
+}
+
+.work {
+    padding: 100px 0 200px;
+    
+}
+
+.whyux {
+    padding: 100px 0;
+
+}
+
+.about-bottom {
+    padding-bottom: 100px;
+
+}
+
+.work-rectangle {
+    background: #F6EFE7;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.work-rectangle-content {
+    transition: transform 300ms ease;
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+
+}
+
+.work-rectangle:hover .work-rectangle-content {
+    transform: scale(1.05);
+    transform-origin: center;
+}
+
+
+.work-image {
+    width: 50%;
+}
+
+.work-text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.work-logo {
+    width: 24%;
+    padding: 0 8% 2em;
+}
+
+.imgs {
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+
+}
+
+.imgs a {
+    text-decoration: none;
+    color: #4C4949;
+}
+
+
+.content-image
+ {
+    border-radius: 30px;
+}
+
+
+
+.link {
+    color: #C1D8AC;
+}
+
+.link:hover {
+    color: #4C4949;
+}
+
+
+
+
+
+
+.socialmedia {
+    text-align: right;
+    padding-bottom: 40px;
+}
+
+.icon svg:hover {
+    fill: #608959;
+}
+
+
+.icon svg {
+    width: 35px;
+    height: 35px;
+    fill: #4C4949;
+}
+
+.icon {
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+
+.abouttext {
+    display: grid;
+    grid-gap: 5em;
+    align-items: center;
+}
+
+.abouttext.image-left {
+    grid-template-columns: 1fr auto;
+}
+
+.abouttext.image-right {
+    grid-template-columns: auto 1fr;
+}
+
+
+.content {
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 1200px;
+
+}
+
+.about-image {
+    width: 300px;
+}
+
+.content-bottom {
+    z-index: -1;
+}
+
+.wave-bottom {
+    fill: #C1D8AC;
+    display: block;
+   
+}
+
+.footer-green {
+    background: #C1D8AC;
+
+}
