@@ -280,8 +280,9 @@ p {
     margin: 0 auto;
     padding: 0 2rem;
     max-width: 1200px;
-
+    
 }
+
 
 .about-image {
     width: 300px;
@@ -300,4 +301,55 @@ p {
 .footer-green {
     background: #C1D8AC;
 
+}
+
+.mirror-body {
+    font-size: 18px;
+}
+
+.stage {
+    background-color: #d38b5bcb;
+    width: 100%;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
+.stage-text {
+    color: white;
+}
+
+.objectives {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    margin-top: 20px;
+    margin-bottom: 60px
+}
+
+
+
+.mirror-content {
+    max-width: 100%;
+}
+
+.mirror-grid {
+    display: grid;
+    grid-template-columns: 1fr 70%;
+    grid-gap: 2rem;
+    margin: 100px 0;
+}
+
+.mirror-flows {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+    margin: 100px 0;
+}
+.text-space {
+    margin-bottom: 50px;
+}
+
+li {
+    padding-left: 2em;
+    text-indent: -1.4em
 }
