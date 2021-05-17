@@ -353,3 +353,19 @@ li {
     padding-left: 2em;
     text-indent: -1.4em
 }
+
+.hero-mirror {
+    background: #d38b5bcb;
+    
+}
+
+.mirror-content {
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    justify-content: center;
+}
+
+.mirror-image {
+    width: 25%;
+}
