@@ -6,10 +6,6 @@
     font-display: swap;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 body {
     color: #4C4949;
     margin: 0;
@@ -202,6 +198,7 @@ p {
 .work-logo {
     width: 24%;
     padding: 0 8% 2em;
+    color: #ffffff;
 }
 
 .imgs {
@@ -313,6 +310,13 @@ p {
     padding: 30px 0;
     margin: 30px 0;
 }
+.stage2 {
+    background-color: #839B5C;
+    width: 100%;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
 
 .stage-text {
     color: white;
@@ -359,6 +363,10 @@ li {
     
 }
 
+.hero-all-about-matcha {
+    background: #839B5C;
+}
+
 .mirror-content {
     display: flex;
     align-items: center;
@@ -369,3 +377,44 @@ li {
 .mirror-image {
     width: 25%;
 }
+
+
+.lightbox-link:hover img {
+    opacity: 0.5;
+}
+
+.lightbox {
+    /* Default to hidden */
+    display: none;
+  
+    /* Overlay entire screen */
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /* A bit of padding around image */
+    padding: 1em;
+  
+    /* Translucent background */
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Unhide the lightbox when it's the target */
+  .lightbox:target {
+    display: block;
+  }
+  
+  .lightbox span {
+    /* Full width and height */
+    display: block;
+    width: 100%;
+    height: 100%;
+  
+    /* Size and position background image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
