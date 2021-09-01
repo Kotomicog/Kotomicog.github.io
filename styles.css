@@ -35,6 +35,8 @@ p {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
     
 }
 
@@ -276,7 +278,7 @@ p {
 .content {
     margin: 0 auto;
     padding: 0 2rem;
-    max-width: 1200px;
+    max-width: 900px;
     
 }
 
@@ -348,9 +350,6 @@ p {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2rem;
     margin: 100px 0;
-}
-.text-space {
-    margin-bottom: 50px;
 }
 
 li {
