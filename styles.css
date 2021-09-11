@@ -406,6 +406,12 @@ max-width: 100%;
     max-width: 100%;
 }
 
+.mirror-main-screen {
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    max-width: 100%;
+}
+
 .mirror-image {
     width: 25%;
 }
