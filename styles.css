@@ -320,6 +320,13 @@ p {
     margin: 30px 0;
 }
 
+.stage3 {
+    background-color: #5E64DB;
+    width: 100%;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
 
 .stage-text {
     color: white;
@@ -335,9 +342,6 @@ p {
 
 
 
-.mirror-content {
-    max-width: 100%;
-}
 
 .mirror-grid {
     display: grid;
@@ -360,18 +364,47 @@ li {
 
 .hero-mirror {
     background: #d38b5bcb;
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    justify-content: center;
+    max-width: 100%;
     
 }
 
 .hero-all-about-matcha {
     background: #839B5C;
-}
-
-.mirror-content {
     display: flex;
     align-items: center;
     padding-top: 2em;
     justify-content: center;
+    max-width: 100%;
+}
+
+.hero-brightwheel {
+    
+background: #5E64DB;
+display: flex;
+align-items: center;
+padding-top: 2em;
+justify-content: center;
+max-width: 100%;
+} 
+
+
+.mirror-content {
+    align-items: center;
+    padding-top: 3em;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.mirror-content2 {
+    align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 2em;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .mirror-image {
