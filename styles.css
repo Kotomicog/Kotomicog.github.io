@@ -282,6 +282,12 @@ p {
     
 }
 
+.content-home {
+    margin: 0 auto;
+    padding: 0 2rem;
+    max-width: 1200px;
+}
+
 
 .about-image {
     width: 300px;
