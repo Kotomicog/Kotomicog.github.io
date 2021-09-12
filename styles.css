@@ -379,11 +379,20 @@ li {
 
 .hero-all-about-matcha {
     background: #839B5C;
+    padding: 2em 0 1em;
+}
+
+.matcha-hero {
+    max-width: 1200px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding-top: 2em;
-    justify-content: center;
-    max-width: 100%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.matcha-hero-image {
+    max-width: 60%;
 }
 
 .hero-brightwheel {
