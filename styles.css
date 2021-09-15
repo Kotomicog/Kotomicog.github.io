@@ -240,7 +240,7 @@ p {
 
 .socialmedia {
     text-align: right;
-    padding-bottom: 40px;
+    padding: 40px 0;
 }
 
 .icon svg:hover {
@@ -395,14 +395,13 @@ li {
     max-width: 60%;
 }
 
-.hero-brightwheel {
-    
-background: #5E64DB;
-display: flex;
-align-items: center;
-padding-top: 2em;
-justify-content: center;
-max-width: 100%;
+.hero-brightwheel { 
+    background: #5E64DB;
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    justify-content: center;
+    max-width: 100%;
 } 
 
 
@@ -470,4 +469,41 @@ max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+
+.contact {
+    background-color: #E8F4E9;
+    border-radius: 20px;
+    padding: 2rem;
+}
+  
+.contact-text {
+    margin: 30px;
+}
+
+.contact-cta {
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.cta-button {
+    background-color: #608959;
+    color: #fff;
   }
+  
+
+.contact-cta:hover {
+    background-color: #fff;
+    color: #608959;
+}
+
+
+
+footer {
+    text-align: center;
+    padding-bottom: 1em;
+}
