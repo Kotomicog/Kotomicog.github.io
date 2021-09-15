@@ -11,7 +11,7 @@ body {
     margin: 0;
     font-family: 'Baloo Chettan 2';
     background-color: white;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 a {
@@ -28,7 +28,6 @@ p {
     background-color: white;
     top: 0;
     font-weight: 700;
-    
     z-index: 1;
 }
 
@@ -36,7 +35,7 @@ p {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     
 }
@@ -238,6 +237,11 @@ p {
 
 
 
+.socialmedia-main {
+    text-align: right;
+    padding: 10px 0;
+}
+
 .socialmedia {
     text-align: right;
     padding: 40px 0;
@@ -278,14 +282,14 @@ p {
 .content {
     margin: 0 auto;
     padding: 0 2rem;
-    max-width: 900px;
+    max-width: 800px;
     
 }
 
 .content-home {
     margin: 0 auto;
     padding: 0 2rem;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 
@@ -383,7 +387,7 @@ li {
 }
 
 .matcha-hero {
-    max-width: 1200px;
+    max-width: 1000px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -499,9 +503,62 @@ li {
 .contact-cta:hover {
     background-color: #fff;
     color: #608959;
+    transition: all 0.65s;
 }
 
 
+.case-study-title {
+font-size: 36px;
+margin-bottom: 1rem;
+font-weight: bold;
+}
+
+.title-shurui {
+    color: #c4c4c4;
+}
+
+.case-study {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 3em;
+    align-items: center;
+    margin-top: 6em;
+}
+
+
+.case-study-image {
+    max-width: 100%;
+}
+
+.case-study-image:hover {
+    transform: scale(1.05) ;
+    transform-origin: center;
+    transition: all 0.65s;
+
+}
+
+
+.case-study-cta {
+    border-radius: 20px;
+    padding: 1rem 2rem;
+    display: inline-block;
+    text-decoration: none;
+
+}
+
+.case-study-cta-button {
+    background-color: #fff;
+    color: #4C4949;
+    border: 2px solid #608959;
+    margin: 2rem 0;
+  }
+  
+
+.case-study-cta:hover {
+    background-color: #608959;
+    color: #fff;
+    transition: all 0.65s;
+}
 
 footer {
     text-align: center;
