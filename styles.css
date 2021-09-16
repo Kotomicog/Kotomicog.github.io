@@ -522,7 +522,7 @@ font-weight: bold;
     grid-template-columns: 2fr 1fr;
     grid-gap: 3em;
     align-items: center;
-    margin-top: 6em;
+    margin-bottom: 6em;
 }
 
 
@@ -562,5 +562,5 @@ font-weight: bold;
 
 footer {
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
