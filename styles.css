@@ -113,21 +113,21 @@ p {
         top: -5px;
     }
 
-    .menu-btn:checked ~ .menu-icon .navicon:before {
+    #menu-btn:checked ~ .menu-icon .navicon:before {
         transform: rotate(-45deg);
         top: 0;
     }
 
-    .menu-btn:checked ~ .menu-icon .navicon:after {
+    #menu-btn:checked ~ .menu-icon .navicon:after {
         transform: rotate(45deg);
         top: 0;
     }
 
-    .menu-btn:checked ~ .navlinks {
+    #menu-btn:checked ~ .navlinks {
         max-height: 50vh;
     }
 
-    .menu-btn:checked ~ .menu-icon .navicon {
+    #menu-btn:checked ~ .menu-icon .navicon {
         background: transparent;
     }
 
@@ -193,19 +193,27 @@ p {
 
 .translate {
     display: block;
-
 }
 
-.translate:hover .japanese {
-    display: none;
+@media (hover: hover) {
+    .translate:hover .japanese {
+        display: none;
+    }
 
+    .translate:hover .english {
+        display: inline;
+    }
 }
 
-.translate:hover .english {
-    display: inline;
+@media (hover: none) {
+    #translate-btn:checked ~ .translate .japanese {
+        display: none;
+    }
 
+    #translate-btn:checked ~ .translate .english {
+        display: inline;
+    }
 }
-
 
 .greeting::after {
     display: block;
