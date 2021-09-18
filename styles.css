@@ -260,7 +260,7 @@ p {
     padding: 50px 0;     
 }
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
  
     .whyux {
         padding: 100px 0;
@@ -619,6 +619,13 @@ li {
 .contact-text {
     margin: 0;
 }
+.contact-cta {
+    border-radius: 20px;
+    padding: 16px 32px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
 
 @media (min-width: 600px) {
     .contact-text {
@@ -631,15 +638,6 @@ li {
         display: inline-block;
         text-decoration: none;
     }
-}
-    
-
-.contact-cta {
-    border-radius: 20px;
-    padding: 16px 32px;
-    display: block;
-    text-decoration: none;
-    text-align: center;
 }
 
 .cta-button {
