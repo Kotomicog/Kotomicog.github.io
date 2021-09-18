@@ -252,9 +252,12 @@ p {
     padding: 30px 0;
 }
 
+.work-page {
+    padding-bottom: 30px;
+}
 
 .whyux {
-    padding: 50px 0;
+    padding: 50px 0;     
 }
 
 @media (min-width: 600px) {
@@ -622,15 +625,21 @@ li {
         margin: 30px;
     }
 
+    .contact-cta {
+        border-radius: 20px;
+        padding: 16px 32px;
+        display: inline-block;
+        text-decoration: none;
+    }
 }
     
 
 .contact-cta {
     border-radius: 20px;
     padding: 16px 32px;
-    display: inline-block;
+    display: block;
     text-decoration: none;
-
+    text-align: center;
 }
 
 .cta-button {
