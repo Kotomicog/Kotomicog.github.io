@@ -40,7 +40,7 @@ p {
   
 .navlink {
     text-decoration: none;
-    padding-top: 16px;
+    padding: 8px 0;
 }
 
 .navlink:link,
