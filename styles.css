@@ -670,7 +670,7 @@ font-weight: bold;
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 800px) {
     .case-study {
         display: grid;
         grid-template-columns: 2fr 1fr;
