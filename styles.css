@@ -40,8 +40,9 @@ p {
   
 .navlink {
     text-decoration: none;
-
+    padding-top: 16px;
 }
+
 .navlink:link,
 .navlink:visited {
     color: #4C4949;
@@ -271,7 +272,7 @@ p {
     }
 
     .work {
-        padding: 100px 0 200px;
+        padding: 10vh 0 20vh;
     }
 }
 
