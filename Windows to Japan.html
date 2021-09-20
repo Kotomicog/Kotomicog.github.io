@@ -8,7 +8,7 @@
 
 
     <title>Windows to Japan case study</title>
-    <link rel="shortcut icon" type="img/jpg" href="img/favicon.svg"/>
+    <link rel="shortcut icon" type="img/jpg" href="img/favicon.svg" />
 </head>
 
 <body>
@@ -63,445 +63,493 @@
     <div class="content">
         <p>What is Windows to Japan?</p>
         <div class="mirror-body">
-            Brightwheel is a childcare management service that offers useful features to both owners and parents.
-            Brightwheel provides an app that the school staff can use to share photos, videos, and daily activities with
-            the authorized parents, as well as communicate with them.
-        </div>
+            Windows to Japan is a travel company that provides customized tours to inbound travellers to Japan, where I used to work for.
+            Their primary focus is planning tours and booking hotels and activities for each party, and they give
+            physical travel files to their clients once they arrive in Japan. Windows to Japan also supports clients
+            during their stay in Japan in the case of emergencies or just for general questions.
 
-        <div class="mirror-body">
-            <p>Objective</p>
+            <div class="mirror-body">
+                <p>Objective</p>
 
-            <div>
-                <li>Design a messaging feature that enables parents to communicate with other parents in the app.</li>
-                <li>Discover what privacy concerns parents have and design the app accordingly so that it is safe to
-                    use.
-                </li>
+                <div>
+                    <li>Design an end-to-end travel application that replaces the physical travel files.
+                    </li>
+                    <li>Organize all the information Windows to Japan provides to their clients and simplify them so that their clients won’t miss important infomation.
+                    </li>
+                </div>
+
+                <div class="objectives">
+                    <div>
+                        <p>Client:</p> Windows to Japan (Volunteer work)
+                    </div>
+                    <div>
+                        <p>Roles:</p> UX/UI designer & researcher
+                    </div>
+                    <div>
+                        <p>Tools:</p> Figma, Miro, Whimsical, Maze
+                    </div>
+                </div>
+
+                <p>Challenges</p>
+                <li>Itineraries, in general, have overloaded with important information. How might we simplify the contents when there are a lot of information? </li>
+                <li>TEXT</li>
+
+
             </div>
 
-            <div class="objectives">
+        </div>
+
+
+
+        <div class="stage3">
+
+
+            <div class="content mirror-body">
+                <h1 class="stage-text">01. Research</h1>
+            </div>
+        </div>
+
+        <div class="content mirror-body">
+            I decided to conduct only user interviews since I couldn’t check other competitors (I had to be a parent or
+            staff to be able to use similar apps). I was initially planning on conducting a survey, but I ended up not
+            doing it
+            since all the questions I had were better to ask in user interviews for qualitative data. Also, the problems
+            I
+            was trying to solve needed to have more quality answers rather than quantity answers.
+
+            <p>1:1 User Interviews</p>
+            Through user interviews, I was able to learn the concerns and needs of the parents.
+            All of the participants were not very concerned about their privacy since their daycare is small. However, I
+            can
+            see some parents being concerned about their privacy, and some participants showed concerns about privacy
+            when
+            it comes to a larger scale (e.g. large schools).
+            For that reason, I decided give parents the option to hide their information in the app. Other than
+            that, the majority of participants seemed to want to get to know
+            other children and parents.
+
+            <br><br>
+
+            Here is the summary of the major needs/pain points I got from the user interviews.
+
+            <img class="mirror-content2" src="Brightwheel/Interview summary.jpg" alt="Interview summary">
+
+
+
+
+        </div>
+
+
+
+
+        <div class="stage3">
+
+
+
+            <div class="content mirror-body">
+                <h1 class="stage-text">02. Define</h1>
+            </div>
+        </div>
+
+        <div class="content mirror-body">
+
+
+            <p>Persona</p>
+            Through my research, I was able to learn a lot about the users, so I decided to summarize my findings into
+            one
+            persona to remember throughout the process. It was really important for me to carefully read through the
+            interview summary as I'm not a mom, and therefore cannot easily empathize with moms.
+            By creating a persona, I was able to remember who I was designing this feature for and what I need to focus
+            on.
+
+            <div>
+
+                <a href=#img-persona class="lightbox-link">
+                    <img class="mirror-content2" src="wtj-img/Persona.jpg" alt="Persona, Samantha Green">
+                </a>
+
+                <a href="#!" class="lightbox" id="img-persona">
+                    <span style="background-image: url('wtj-img/Persona.jpg')"></span>
+                </a>
+
+            </div>
+
+
+            <p>User Flow</p>
+            I decided to make a user flow to imagine how the user will think and take actions to complete a task.
+            Even though Brightwheel is an app I use every day, I only see the daycare staff interface; parents see a
+            different view.
+            To understand the users (the parents) better, I first watched some YouTube videos to learn how the interface
+            works.
+            Then, I referred back to my research to make sure that I'm not missing important elements.
+
+            <div>
+
+                <a href=#img-user-flow class="lightbox-link">
+                    <img class="mirror-content2" src="wtj-img/User flow.jpg" alt="User flow">
+                </a>
+
+                <a href="#!" class="lightbox" id="img-user-flow">
+                    <span style="background-image: url('wtj-img/User\ flow.jpg')"></span>
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="stage3">
+            <div class="content mirror-body">
+                <h1 class="stage-text">03. Design</h1>
+            </div>
+        </div>
+
+
+
+        <div class="content mirror-body">
+
+            <p>Sketches</p>
+
+            Before creating wireframes, I decided to sketch out different ideas and organize my thoughts.
+            I first went to the app and took a lot of screenshots of the design I will need to use in this project.
+            Then, I started putting all the new features together with the existing design in the sketches.
+
+            <div>
+
+                <a href=#img-sketches class="lightbox-link">
+                    <img class="mirror-content2" src="wtj-img/Sketches.jpg" alt="Sketches">
+                </a>
+
+                <a href="#!" class="lightbox" id="img-sketches">
+                    <span style="background-image: url('wtj-img/Sketches.jpg')"></span>
+                </a>
+
+            </div>
+
+
+
+            <p>Mid-Fidelity Wireframes</p>
+            I made wireframes before moving on to hi-fidelity design so that I can focus on the flows for the whole app.
+            I made this based on the sketches and screenshots from the Brightwheel app. In order to differentiate the
+            screenshots and new feature sketches, I kept the existing design in color and made new designs in grayscale.
+            The difficult part of this process was the fact that there exist essentially two people in one app: the
+            child
+            and parent. It took me some time to come up with a system to differentiate which settings a user is trying
+            to edit.
+            I also focused on putting the privacy settings link somewhere easy to find since it's so important for
+            users.
+
+
+
+            <div>
+
+                <a href=#img-wireframes-request class="lightbox-link">
+                    <img class="mirror-content2" src="Brightwheel/Wireframe sending a request.jpg"
+                        alt="mid-fidelity wireframes sending a request">
+                </a>
+
+                <a href="#!" class="lightbox" id="img-wireframes-request">
+                    <span style="background-image: url('Brightwheel/Wireframe\ sending\ a\ request.jpg')"></span>
+                </a>
+
+            </div>
+
+            <div><a href=#img-wireframes-request class="lightbox-link">
+                    <a href=#img-wireframes-privacy class="lightbox-link">
+                        <img class="mirror-content2" src="Brightwheel/Wireframe privacy setting.jpg"
+                            alt="mid-fidelity wireframes privacy setting">
+                    </a>
+
+                    <a href="#!" class="lightbox" id="img-wireframes-privacy">
+                        <span style="background-image: url('Brightwheel/Wireframe\ privacy\ setting.jpg')"></span>
+                    </a>
+
+            </div>
+
+
+
+            <p>Hi-Fidelity Responsive Design</p>
+            Once I finished the wireframes, I started working on hi-fidelity designs.
+            While designing, I paid special attention to match the colors and paradigms in the original design.
+            I made three flows for the parent-parent messaging feature: sending a message request, editing privacy
+            settings, and checking a message request.
+            I didn't make major changes from the wireframes since I mainly followed the design of the original app. The
+            only design that is entirely new to the app is the checking a message request. I did research to find
+            inspiration for how I could make the message request obvious in a way that doesn't disrupt the original
+            design.
+            <br><br>
+
+            <div>
+
+                <a href=#img-hifi-request class="lightbox-link">
+                    <img class="mirror-content2" src="Brightwheel/Sending a request.jpg"
+                        alt="mid-fidelity wireframes sending a request">
+                </a>
+
+                <a href="#!" class="lightbox" id="img-hifi-request">
+                    <span style="background-image: url('Brightwheel/Sending\ a\ request.jpg')"></span>
+                </a>
+
+            </div>
+
+            <div>
+
+                <a href=#img-hifi-privacy class="lightbox-link">
+                    <img class="mirror-content2" src="Brightwheel/Privacy setting.jpg"
+                        alt="mid-fidelity wireframes sending a request">
+                </a>
+
+                <a href="#!" class="lightbox" id="img-hifi-privacy">
+                    <span style="background-image: url('Brightwheel/Privacy\ setting.jpg')"></span>
+                </a>
+
+            </div>
+
+            <div>
+
+                <a href=#img-hifi-approving class="lightbox-link">
+                    <img class="mirror-content2" src="Brightwheel/Approving a request.jpg"
+                        alt="mid-fidelity wireframes sending a request">
+                </a>
+
+                <a href="#!" class="lightbox" id="img-hifi-approving">
+                    <span style="background-image: url('Brightwheel/Approving\ a\ request.jpg')"></span>
+                </a>
+
+            </div>
+
+            <div class="content mirror-body">
+
+                <p>Mid-fidelity Prototype and Usability Test</p>
+                <a class="link"
+                    href="https://www.figma.com/proto/KbbHPLf2m5jmZazjOuph9m/WTJ-wireframes?page-id=0%3A1&node-id=129%3A6223&viewport=241%2C48%2C0.1&scaling=scale-down&starting-point-node-id=129%3A6223"
+                    target="_blank">View Prototype</a><br><br>
+                I conducted usability tests to identify frustrations as well as privacy concerns that I should be more
+                careful about. I used two formats:
+                <ul>
+                    <li>Zoom (2 participants)</li>
+                    <li>Maze (6 participants)</li>
+                </ul>
+    
+                <p>Affinity Map</p>
+                After the usability testing, I summarized the findings so that I can revise the parts of the design that
+                made the users frustrated/confused.
+                I did not get major privacy concerns regarding the app and its interface; rather I received comments
+                concerning other features, such as locking the app.
+                Since this is such a sensitive topic, I think there could be more things that could be iterated on and
+                considered.
+    
                 <div>
-                    <p>Client:</p> Windows to Japan
+                    <a href=#img-affinity-map class="lightbox-link">
+                        <img class="mirror-content2" src="wtj-img/WTJ lo-fi Affinity Map.jpg" alt="Affinity map">
+                    </a>
+    
+                    <a href="#!" class="lightbox" id="img-affinity-map">
+                        <span style="background-image: url('wtj-img/WTJ\ lo-fi\ Affinity\ Map.jpg')"></span>
+                    </a>
+                </div>
+
+            
+        </div>
+
+
+
+
+
+
+
+        <div class="stage3">
+
+            <div class="content mirror-body">
+                <h1 class="stage-text">04. Test</h1>
+            </div>
+        </div>
+
+        <div class="content mirror-body">
+
+            <p>Prototype and Usability Test</p>
+            <a class="link"
+                href="https://www.figma.com/proto/kC1vyScK9X1n2jBAD8PLZA/Brightwheel-Hi-fi-design?page-id=0%3A1&node-id=27%3A96&viewport=241%2C48%2C0.3&scaling=scale-down&starting-point-node-id=27%3A96&show-proto-sidebar=1"
+                target="_blank">View Prototype</a><br><br>
+            I conducted usability tests to identify frustrations as well as privacy concerns that I should be more
+            careful about. I used two formats:
+            <ul>
+                <li>Zoom (4 participants)</li>
+                <li>Maze (11 participants)</li>
+            </ul>
+
+            <p>Affinity Map</p>
+            After the usability testing, I summarized the findings so that I can revise the parts of the design that
+            made the users frustrated/confused.
+            I did not get major privacy concerns regarding the app and its interface; rather I received comments
+            concerning other features, such as locking the app.
+            Since this is such a sensitive topic, I think there could be more things that could be iterated on and
+            considered.
+
+            <div>
+                <a href=#img-affinity-map class="lightbox-link">
+                    <img class="mirror-content2" src="Brightwheel/Affinity map.jpg" alt="Affinity map">
+                </a>
+
+                <a href="#!" class="lightbox" id="img-affinity-map">
+                    <span style="background-image: url('Brightwheel/Affinity\ map.jpg')"></span>
+                </a>
+            </div>
+
+            <p>Priority Revision</p>
+            Since my main focus is to add a new feature, I wanted to keep the original design as much as possible and
+            not add a design that stands out from the original.
+            <br>
+
+            <div>
+                <div class="mirror-content">
+                    I included the "what is a message request?" text so that if anyone gets confused by it, they can
+                    read about it. Some participants mentioned that they can expect what it is, but they're still not
+                    sure
+                    what it does.
                 </div>
                 <div>
-                    <p>Roles:</p> UX/UI designer & researcher
+                    <a href=#img-revision-profile class="lightbox-link">
+                        <img class="mirror-content2" src="Brightwheel/Priority revision profile.jpg"
+                            alt="Revisions I made based on the user test, profile">
+                    </a>
+                    <a href="#!" class="lightbox" id="img-revision-profile">
+                        <span style="background-image: url('Brightwheel/Priority\ revision\ profile.jpg')"></span>
+                    </a>
                 </div>
+            </div>
+
+            <div>
+                <div class="mirror-content">
+                    I kept the tagged children panel shown by default to make it more prominent, while still including a
+                    "hide" button.
+                </div>
+
                 <div>
-                    <p>Tools:</p> Figma, Miro, Whimsical, Maze
+
+                    <a href=#img-revision-tags class="lightbox-link">
+                        <img class="mirror-content2" src="Brightwheel/Priority revision tags.jpg"
+                            alt="Revisions I made based on the user test, tags">
+                    </a>
+
+                    <a href="#!" class="lightbox" id="img-revision-tags">
+                        <span style="background-image: url('Brightwheel/Priority\ revision\ tags.jpg')"></span>
+                    </a>
+
                 </div>
             </div>
 
-            <p>Challenges</p>
-            <li>Not all parents are open to share their own or their child's information. How might we provide everyone
-                options to show/hide their information? </li>
-            <li>Parents have a hard time getting to know other parents in-person. It's also hard to know which children belong to which parents.</li>
-
-
-        </div>
-
-    </div>
-
-
-
-    <div class="stage3">
-
-
-        <div class="content mirror-body">
-            <h1 class="stage-text">01. Research</h1>
-        </div>
-    </div>
-
-    <div class="content mirror-body">
-        I decided to conduct only user interviews since I couldn’t check other competitors (I had to be a parent or
-        staff to be able to use similar apps). I was initially planning on conducting a survey, but I ended up not doing it
-        since all the questions I had were better to ask in user interviews for qualitative data. Also, the problems I
-        was trying to solve needed to have more quality answers rather than quantity answers.
-
-        <p>1:1 User Interviews</p>
-        Through user interviews, I was able to learn the concerns and needs of the parents.
-        All of the participants were not very concerned about their privacy since their daycare is small. However, I can
-        see some parents being concerned about their privacy, and some participants showed concerns about privacy when
-        it comes to a larger scale (e.g. large schools).
-        For that reason, I decided give parents the option to hide their information in the app. Other than
-        that, the majority of participants seemed to want to get to know
-        other children and parents.
-
-        <br><br>
-
-        Here is the summary of the major needs/pain points I got from the user interviews.
-
-        <img class="mirror-content2" src="Brightwheel/Interview summary.jpg" alt="Interview summary">
-
-
-
-
-    </div>
-
-
-
-
-    <div class="stage3">
-
-
-
-        <div class="content mirror-body">
-            <h1 class="stage-text">02. Define</h1>
-        </div>
-    </div>
-
-    <div class="content mirror-body">
-
-
-        <p>Persona</p>
-        Through my research, I was able to learn a lot about the users, so I decided to summarize my findings into one
-        persona to remember throughout the process. It was really important for me to carefully read through the
-        interview summary as I'm not a mom, and therefore cannot easily empathize with moms.
-        By creating a persona, I was able to remember who I was designing this feature for and what I need to focus on.
-
-        <div>
-
-            <a href=#img-persona class="lightbox-link">
-                <img class="mirror-content2" src="Brightwheel/Persona.jpg" alt="Persona, anna taylor">
-            </a>
-
-            <a href="#!" class="lightbox" id="img-persona">
-                <span style="background-image: url('Brightwheel/Persona.jpg')"></span>
-            </a>
-
-        </div>
-
-
-        <p>User Flow</p>
-        I decided to make a user flow to imagine how the user will think and take actions to complete a task.
-        Even though Brightwheel is an app I use every day, I only see the daycare staff interface; parents see a different view.
-        To understand the users (the parents) better, I first watched some YouTube videos to learn how the interface works.
-        Then, I referred back to my research to make sure that I'm not missing important elements.
-
-        <div>
-
-            <a href=#img-user-flow class="lightbox-link">
-                <img class="mirror-content2" src="Brightwheel/User flow.jpg" alt="User flow">
-            </a>
-
-            <a href="#!" class="lightbox" id="img-user-flow">
-                <span style="background-image: url('Brightwheel/User\ flow.jpg')"></span>
-            </a>
-
-        </div>
-
-    </div>
-
-
-    <div class="stage3">
-        <div class="content mirror-body">
-            <h1 class="stage-text">03. Design</h1>
-        </div>
-    </div>
-
-
-
-    <div class="content mirror-body">
-
-        <p>Sketches</p>
-
-        Before creating wireframes, I decided to sketch out different ideas and organize my thoughts.
-        I first went to the app and took a lot of screenshots of the design I will need to use in this project.
-        Then, I started putting all the new features together with the existing design in the sketches.
-
-        <div>
-
-            <a href=#img-sketches class="lightbox-link">
-                <img class="mirror-content2" src="Brightwheel/Sketches.jpg"
-                    alt="Sketches">
-            </a>
-
-            <a href="#!" class="lightbox" id="img-sketches">
-                <span style="background-image: url('Brightwheel/Sketches.jpg')"></span>
-            </a>
-
-        </div>
-
-
-
-        <p>Mid-Fidelity Wireframes</p>
-        I made wireframes before moving on to hi-fidelity design so that I can focus on the flows for the whole app.
-        I made this based on the sketches and screenshots from the Brightwheel app. In order to differentiate the
-        screenshots and new feature skecthes, I kept the existing design in color and made new designs in grayscale.
-        The difficult part of this process was the fact that there exist essentially two people in one app: the child
-        and parent. It took me some time to come up with a system to differentiate which settings a user is trying to edit.
-        I also focused on putting the privacy settings link somewhere easy to find since it's so important for users.
-
-
-
-        <div>
-
-            <a href=#img-wireframes-request class="lightbox-link">
-                <img class="mirror-content2" src="Brightwheel/Wireframe sending a request.jpg"
-                    alt="mid-fidelity wireframes sending a request">
-            </a>
-
-            <a href="#!" class="lightbox" id="img-wireframes-request">
-                <span style="background-image: url('Brightwheel/Wireframe\ sending\ a\ request.jpg')"></span>
-            </a>
-
-        </div>
-
-        <div><a href=#img-wireframes-request class="lightbox-link">
-                <a href=#img-wireframes-privacy class="lightbox-link">
-                    <img class="mirror-content2" src="Brightwheel/Wireframe privacy setting.jpg"
-                        alt="mid-fidelity wireframes privacy setting">
-                </a>
-
-                <a href="#!" class="lightbox" id="img-wireframes-privacy">
-                    <span style="background-image: url('Brightwheel/Wireframe\ privacy\ setting.jpg')"></span>
-                </a>
-
-        </div>
-
-
-
-        <p>Hi-Fidelity Responsive Design</p>
-        Once I finished the wireframes, I started working on hi-fidelity designs.
-        While designing, I paid special attention to match the colors and paradigms in the original design.
-        I made three flows for the parent-parent messaging feature: sending a message request, editing privacy
-        settings, and checking a message request.
-        I didn't make major changes from the wireframes since I mainly followed the design of the original app. The
-        only design that is entirely new to the app is the checking a message request. I did research to find
-        inspiration for how I could make the message request obvious in a way that doesn't disrupt the original
-        design.
-        <br><br>
-
-        <div>
-
-            <a href=#img-hifi-request class="lightbox-link">
-                <img class="mirror-content2" src="Brightwheel/Sending a request.jpg"
-                    alt="mid-fidelity wireframes sending a request">
-            </a>
-
-            <a href="#!" class="lightbox" id="img-hifi-request">
-                <span style="background-image: url('Brightwheel/Sending\ a\ request.jpg')"></span>
-            </a>
-
-        </div>
-
-        <div>
-
-            <a href=#img-hifi-privacy class="lightbox-link">
-                <img class="mirror-content2" src="Brightwheel/Privacy setting.jpg"
-                    alt="mid-fidelity wireframes sending a request">
-            </a>
-
-            <a href="#!" class="lightbox" id="img-hifi-privacy">
-                <span style="background-image: url('Brightwheel/Privacy\ setting.jpg')"></span>
-            </a>
-
-        </div>
-
-        <div>
-
-            <a href=#img-hifi-approving class="lightbox-link">
-                <img class="mirror-content2" src="Brightwheel/Approving a request.jpg"
-                    alt="mid-fidelity wireframes sending a request">
-            </a>
-
-            <a href="#!" class="lightbox" id="img-hifi-approving">
-                <span style="background-image: url('Brightwheel/Approving\ a\ request.jpg')"></span>
-            </a>
-
-        </div>
-
-
-    </div>
-
-
-
-
-
-
-
-    <div class="stage3">
-
-        <div class="content mirror-body">
-            <h1 class="stage-text">04. Test</h1>
-        </div>
-    </div>
-
-    <div class="content mirror-body">
-
-        <p>Prototype and Usability Test</p>
-        <a class="link"
-            href="https://www.figma.com/proto/kC1vyScK9X1n2jBAD8PLZA/Brightwheel-Hi-fi-design?page-id=0%3A1&node-id=27%3A96&viewport=241%2C48%2C0.3&scaling=scale-down&starting-point-node-id=27%3A96&show-proto-sidebar=1"
-            target="_blank">View Prototype</a><br><br>
-        I conducted usability tests to identify frustrations as well as privacy concerns that I should be more
-        careful about. I used two formats:
-        <ul>
-            <li>Zoom (3 participants who have a child currently attending daycare)</li>
-            <li>Maze (10 participants, preferably parents)</li>
-        </ul>
-
-        <p>Affinity Map</p>
-        After the usability testing, I summarized the findings so that I can revise the parts of the design that
-        made the users frustrated/confused.
-        I did not get major privacy concerns regarding the app and its interface; rather I received comments
-        concerning other features, such as locking the app.
-        Since this is such a sensitive topic, I think there could be more things that could be iterated on and
-        considered.
-
-        <div>
-            <a href=#img-affinity-map class="lightbox-link">
-                <img class="mirror-content2" src="Brightwheel/Affinity map.jpg" alt="Affinity map">
-            </a>
-
-            <a href="#!" class="lightbox" id="img-affinity-map">
-                <span style="background-image: url('Brightwheel/Affinity\ map.jpg')"></span>
-            </a>
-        </div>
-
-        <p>Priority Revision</p>
-        Since my main focus is to add a new feature, I wanted to keep the original design as much as possible and
-        not add a design that stands out from the original.
-        <br>
-
-        <div>
-            <div class="mirror-content">
-                I included the "what is a message request?" text so that if anyone gets confused by it, they can
-                read about it. Some participants mentioned that they can expect what it is, but they're still not sure
-                what it does.
-            </div>
             <div>
-                <a href=#img-revision-profile class="lightbox-link">
-                    <img class="mirror-content2" src="Brightwheel/Priority revision profile.jpg"
-                        alt="Revisions I made based on the user test, profile">
-                </a>
-                <a href="#!" class="lightbox" id="img-revision-profile">
-                    <span style="background-image: url('Brightwheel/Priority\ revision\ profile.jpg')"></span>
-                </a>
-            </div>
-        </div>
+                <div class="mirror-content">
+                    Some participants had a hard time finding "display name" since it isn't shown until they
+                    deactivate the "name" toggle.
+                    I added some help text to inform users how to set a display name when they don't want to share their
+                    real
+                    name.
+                </div>
 
-        <div>
-            <div class="mirror-content">
-                I kept the tagged children panel shown by default to make it more prominent, while still including a "hide" button.
+                <div>
+
+                    <a href=#img-revision-settings class="lightbox-link">
+                        <img class="mirror-content2" src="Brightwheel/Priority revision settings.jpg"
+                            alt="Revisions I made based on the user test, profile">
+                    </a>
+
+                    <a href="#!" class="lightbox" id="img-revision-settings">
+                        <span style="background-image: url('Brightwheel/Priority\ revision\ settings.jpg')"></span>
+                    </a>
+
+                </div>
             </div>
 
             <div>
 
-                <a href=#img-revision-tags class="lightbox-link">
-                    <img class="mirror-content2" src="Brightwheel/Priority revision tags.jpg"
-                        alt="Revisions I made based on the user test, tags">
-                </a>
+                <div class="mirror-content">
+                    At first I wasn’t sure how to make the topic more obvious so that users would know they have to
+                    choose a
+                    topic. I referred back to
+                    the original design and discovered that it uses purple for certain text and more subtle colors for
+                    other text; it also has fewer words.
+                    I decided to change the color and remove the word “Topic” to make it
+                    both look cleaner and more prominent;
+                    I also made the drop down icon larger.<br><br>
+                    A few participants mentioned that they didn't know who will receive the request, so I included some
+                    explanatory
+                    text.
+                </div>
 
-                <a href="#!" class="lightbox" id="img-revision-tags">
-                    <span style="background-image: url('Brightwheel/Priority\ revision\ tags.jpg')"></span>
-                </a>
+                <div>
 
-            </div>
-        </div>
+                    <a href=#img-revision-message class="lightbox-link">
+                        <img class="mirror-content2" src="Brightwheel/Priority revision message.jpg"
+                            alt="Revisions I made based on the user test, profile">
+                    </a>
 
-        <div>
-            <div class="mirror-content">
-                Some participants had a hard time finding "display name" since it isn't shown until they
-                deactivate the "name" toggle.
-                I added some help text to inform users how to set a display name when they don't want to share their real
-                name.
-            </div>
+                    <a href="#!" class="lightbox" id="img-revision-message">
+                        <span style="background-image: url('Brightwheel/Priority\ revision\ message.jpg')"></span>
+                    </a>
 
-            <div>
-
-                <a href=#img-revision-settings class="lightbox-link">
-                    <img class="mirror-content2" src="Brightwheel/Priority revision settings.jpg"
-                        alt="Revisions I made based on the user test, profile">
-                </a>
-
-                <a href="#!" class="lightbox" id="img-revision-settings">
-                    <span style="background-image: url('Brightwheel/Priority\ revision\ settings.jpg')"></span>
-                </a>
-
-            </div>
-        </div>
-
-        <div>
-
-            <div class="mirror-content">
-                At first I wasn’t sure how to make the topic more obvious so that users would know they have to choose a
-                topic. I referred back to
-                the original design and discovered that it uses purple for certain text and more subtle colors for other text; it also has fewer words.
-                I decided to change the color and remove the word “Topic” to make it
-                both look cleaner and more prominent;
-                I also made the drop down icon larger.<br><br>
-                A few participants mentioned that they didn't know who will receive the request, so I included some explanatory
-                text.
+                </div>
             </div>
 
-            <div>
 
-                <a href=#img-revision-message class="lightbox-link">
-                    <img class="mirror-content2" src="Brightwheel/Priority revision message.jpg"
-                        alt="Revisions I made based on the user test, profile">
-                </a>
-
-                <a href="#!" class="lightbox" id="img-revision-message">
-                    <span style="background-image: url('Brightwheel/Priority\ revision\ message.jpg')"></span>
-                </a>
-
-            </div>
         </div>
 
 
-    </div>
 
+        <div class="stage3">
 
-
-    <div class="stage3">
+            <div class="content mirror-body">
+                <h1 class="stage-text">Takeaways</h1>
+            </div>
+        </div>
 
         <div class="content mirror-body">
-            <h1 class="stage-text">Takeaways</h1>
+            <li>It's not easy to empathize with people you are not familiar with–research is an effective means to
+                empathize with and understand those people.</li>
+            <li>Don't assume people will understand something you understand–even small things can make people confused
+                and
+                frustrated; having explanations is helpful.</li>
+            <li>Technology (such as Brightwheel) is a great way to solve problems, yet it can create problems at the
+                same time. </li>
         </div>
-    </div>
-
-    <div class="content mirror-body">
-        <li>It's not easy to empathize with people you are not familiar with–research is an effective means to empathize with and understand those people.</li>
-        <li>Don't assume people will understand something you understand–even small things can make people confused and
-            frustrated; having explanations is helpful.</li>
-        <li>Technology (such as Brightwheel) is a great way to solve problems, yet it can create problems at the
-            same time. </li>
-    </div>
 
 
 
 
-    <div class="content-home">
-        <div class="socialmedia">
+        <div class="content-home">
+            <div class="socialmedia">
 
-            <a class="icon" href="https://www.linkedin.com/in/kotomitcogdill/"><svg viewBox="0 0 40 40"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M30.9423 39.9999C31.1141 39.9999 38.8816 39.9982 38.7115 39.9982C39.4017 39.9982 39.9619 39.4382 39.9619 38.7482C39.3784 25.6533 43.0329 11.835 29.3952 11.835C26.7726 11.835 24.6836 12.73 23.1781 13.9133C23.1781 11.4783 20.5456 12.825 14.4687 12.4633C13.7784 12.4633 13.2183 13.0233 13.2183 13.7133C13.7217 37.3232 12.0946 39.9982 14.4687 39.9982H22.2378C24.4936 39.9982 23.0581 36.8183 23.4882 26.3516C23.4882 22.0283 24.7387 21.1816 26.8994 21.1816C29.2901 21.1816 29.6919 22.8416 29.6919 26.5616C30.1204 36.8399 28.6949 39.9999 30.9423 39.9999ZM26.8994 18.6816C19.4119 18.6816 20.9874 26.9116 20.9874 37.4983H15.7191V14.9633H20.6773V17.1266C20.6773 18.3266 22.5063 18.9166 23.1431 17.71C23.9634 16.1533 26.0941 14.335 29.3952 14.335C35.2754 14.335 37.4611 17.2233 37.4611 24.9949V37.4999H32.1927C32.1927 25.5933 33.4531 18.6816 26.8994 18.6816Z" />
-                    <path
-                        d="M1.81947 12.4645C-0.54796 12.4645 1.07257 15.1062 0.569069 38.7495C0.569069 39.4394 1.12925 39.9994 1.81947 39.9994H9.597C11.9644 39.9994 10.3439 37.3578 10.8474 13.7145C10.8474 11.5562 7.71138 12.8295 1.81947 12.4645ZM8.34659 37.4995H3.06988V14.9645H8.34659V37.4995Z" />
-                    <path
-                        d="M5.70436 0C-1.92478 0 -1.87809 11.5483 5.70436 11.5483C13.2818 11.5483 13.3418 0 5.70436 0ZM5.70436 9.04832C1.42297 9.04832 1.38296 2.5 5.70436 2.5C10.0341 2.5 9.97908 9.04832 5.70436 9.04832Z" />
-                </svg>
+                <a class="icon" href="https://www.linkedin.com/in/kotomitcogdill/"><svg viewBox="0 0 40 40"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30.9423 39.9999C31.1141 39.9999 38.8816 39.9982 38.7115 39.9982C39.4017 39.9982 39.9619 39.4382 39.9619 38.7482C39.3784 25.6533 43.0329 11.835 29.3952 11.835C26.7726 11.835 24.6836 12.73 23.1781 13.9133C23.1781 11.4783 20.5456 12.825 14.4687 12.4633C13.7784 12.4633 13.2183 13.0233 13.2183 13.7133C13.7217 37.3232 12.0946 39.9982 14.4687 39.9982H22.2378C24.4936 39.9982 23.0581 36.8183 23.4882 26.3516C23.4882 22.0283 24.7387 21.1816 26.8994 21.1816C29.2901 21.1816 29.6919 22.8416 29.6919 26.5616C30.1204 36.8399 28.6949 39.9999 30.9423 39.9999ZM26.8994 18.6816C19.4119 18.6816 20.9874 26.9116 20.9874 37.4983H15.7191V14.9633H20.6773V17.1266C20.6773 18.3266 22.5063 18.9166 23.1431 17.71C23.9634 16.1533 26.0941 14.335 29.3952 14.335C35.2754 14.335 37.4611 17.2233 37.4611 24.9949V37.4999H32.1927C32.1927 25.5933 33.4531 18.6816 26.8994 18.6816Z" />
+                        <path
+                            d="M1.81947 12.4645C-0.54796 12.4645 1.07257 15.1062 0.569069 38.7495C0.569069 39.4394 1.12925 39.9994 1.81947 39.9994H9.597C11.9644 39.9994 10.3439 37.3578 10.8474 13.7145C10.8474 11.5562 7.71138 12.8295 1.81947 12.4645ZM8.34659 37.4995H3.06988V14.9645H8.34659V37.4995Z" />
+                        <path
+                            d="M5.70436 0C-1.92478 0 -1.87809 11.5483 5.70436 11.5483C13.2818 11.5483 13.3418 0 5.70436 0ZM5.70436 9.04832C1.42297 9.04832 1.38296 2.5 5.70436 2.5C10.0341 2.5 9.97908 9.04832 5.70436 9.04832Z" />
+                    </svg>
 
-            </a>
+                </a>
 
-            <a class="icon" href="https://github.com/Kotomicog"><svg viewBox="0 0 40 40"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M0.251322 17.3393C-1.05058 25.8662 2.59274 36.1502 13.8269 39.9444C14.0274 39.9826 14.2129 40 14.3867 40C15.6936 40 16.5928 38.9885 16.5928 37.7405C16.4307 36.8315 17.2329 33.1486 15.0552 33.6439C10.8454 34.5755 10.3406 32.1301 9.69888 30.8509C11.5139 33.2737 14.2413 33.2129 16.2986 32.2744C17.4401 31.7529 16.8435 30.4251 17.3849 29.9401C18.2139 29.1997 17.7927 27.7798 16.7047 27.6563C12.8375 27.2131 9.256 25.9166 9.256 19.484C9.256 15.7159 11.7712 15.3787 11.0777 13.8023C11.0526 13.745 10.5211 12.4918 11.0024 10.5887C13.3739 11.044 14.4653 12.8134 15.6034 12.4953C18.4228 11.6958 21.5263 11.6958 24.344 12.4953C25.5206 12.8238 26.3612 11.1031 28.9199 10.5782C29.6569 13.453 28.1294 14.1551 29.092 15.231C30.1482 16.4129 30.6847 17.8433 30.6847 19.484C30.6847 29.1545 22.8014 26.3615 22.1597 28.5567C22.0126 29.0572 22.168 29.5978 22.5524 29.9332C23.5719 30.8248 23.4382 33.1138 23.3296 34.9544C23.2176 36.8628 23.1207 38.5088 24.1351 39.4369C24.4927 39.7671 25.1295 40.1199 26.281 39.8766C37.368 36.1728 41.0381 25.9339 39.7562 17.4262C36.2533 -5.80813 3.78099 -5.78032 0.251322 17.3393ZM14.0725 36.4196L14.0792 37.2973C13.2052 36.9827 12.3829 36.6195 11.6141 36.2145C12.3244 36.404 13.14 36.4857 14.0725 36.4196ZM14.6909 29.9888C14.6825 30.034 14.6742 30.0809 14.6658 30.1279C13.2402 30.5658 12.1439 30.1296 11.3952 28.8208C11.3952 28.8191 11.3952 28.8191 11.3935 28.8174C12.53 29.45 13.7015 29.7907 14.6909 29.9888ZM19.9988 2.63185C39.7746 2.63185 44.2352 30.9048 25.7963 37.2904C25.7328 36.7742 25.7913 35.8009 25.8314 35.1143C25.9283 33.4614 26.042 31.5357 25.4754 29.9262C33.9787 28.0856 34.689 18.3751 31.415 14.0491C31.8212 12.3945 31.6574 8.50647 30.1967 8.03025C29.8524 7.91727 28.0157 7.50188 24.4526 9.83261C21.543 9.10958 18.4027 9.10784 15.4931 9.83261C13.7149 8.67333 9.70723 6.78754 8.93846 8.78978C8.04601 11.1222 8.25826 13.008 8.52399 14.0561C5.61769 17.8867 6.48841 24.3002 9.41644 27.3105C7.75689 26.4849 5.47062 26.2033 4.97761 27.8562C4.43779 29.6586 6.50178 29.4396 7.78363 32.7297C7.90563 33.1399 8.13125 33.6213 8.4772 34.0993C-2.90566 24.427 2.58605 2.63185 19.9988 2.63185Z" />
-                </svg></a>
+                <a class="icon" href="https://github.com/Kotomicog"><svg viewBox="0 0 40 40"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M0.251322 17.3393C-1.05058 25.8662 2.59274 36.1502 13.8269 39.9444C14.0274 39.9826 14.2129 40 14.3867 40C15.6936 40 16.5928 38.9885 16.5928 37.7405C16.4307 36.8315 17.2329 33.1486 15.0552 33.6439C10.8454 34.5755 10.3406 32.1301 9.69888 30.8509C11.5139 33.2737 14.2413 33.2129 16.2986 32.2744C17.4401 31.7529 16.8435 30.4251 17.3849 29.9401C18.2139 29.1997 17.7927 27.7798 16.7047 27.6563C12.8375 27.2131 9.256 25.9166 9.256 19.484C9.256 15.7159 11.7712 15.3787 11.0777 13.8023C11.0526 13.745 10.5211 12.4918 11.0024 10.5887C13.3739 11.044 14.4653 12.8134 15.6034 12.4953C18.4228 11.6958 21.5263 11.6958 24.344 12.4953C25.5206 12.8238 26.3612 11.1031 28.9199 10.5782C29.6569 13.453 28.1294 14.1551 29.092 15.231C30.1482 16.4129 30.6847 17.8433 30.6847 19.484C30.6847 29.1545 22.8014 26.3615 22.1597 28.5567C22.0126 29.0572 22.168 29.5978 22.5524 29.9332C23.5719 30.8248 23.4382 33.1138 23.3296 34.9544C23.2176 36.8628 23.1207 38.5088 24.1351 39.4369C24.4927 39.7671 25.1295 40.1199 26.281 39.8766C37.368 36.1728 41.0381 25.9339 39.7562 17.4262C36.2533 -5.80813 3.78099 -5.78032 0.251322 17.3393ZM14.0725 36.4196L14.0792 37.2973C13.2052 36.9827 12.3829 36.6195 11.6141 36.2145C12.3244 36.404 13.14 36.4857 14.0725 36.4196ZM14.6909 29.9888C14.6825 30.034 14.6742 30.0809 14.6658 30.1279C13.2402 30.5658 12.1439 30.1296 11.3952 28.8208C11.3952 28.8191 11.3952 28.8191 11.3935 28.8174C12.53 29.45 13.7015 29.7907 14.6909 29.9888ZM19.9988 2.63185C39.7746 2.63185 44.2352 30.9048 25.7963 37.2904C25.7328 36.7742 25.7913 35.8009 25.8314 35.1143C25.9283 33.4614 26.042 31.5357 25.4754 29.9262C33.9787 28.0856 34.689 18.3751 31.415 14.0491C31.8212 12.3945 31.6574 8.50647 30.1967 8.03025C29.8524 7.91727 28.0157 7.50188 24.4526 9.83261C21.543 9.10958 18.4027 9.10784 15.4931 9.83261C13.7149 8.67333 9.70723 6.78754 8.93846 8.78978C8.04601 11.1222 8.25826 13.008 8.52399 14.0561C5.61769 17.8867 6.48841 24.3002 9.41644 27.3105C7.75689 26.4849 5.47062 26.2033 4.97761 27.8562C4.43779 29.6586 6.50178 29.4396 7.78363 32.7297C7.90563 33.1399 8.13125 33.6213 8.4772 34.0993C-2.90566 24.427 2.58605 2.63185 19.9988 2.63185Z" />
+                    </svg></a>
 
 
 
-            <a class="icon" href="mailto:hi@kotomi.cogdill.com"><svg viewBox="0 0 45 45"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M41.0449 7.08496H3.95508C1.77425 7.08496 0 8.85921 0 11.04V33.9603C0 36.1412 1.77425 37.9154 3.95508 37.9154H41.0449C43.2258 37.9154 45 36.1412 45 33.9603V11.04C45 8.85921 43.2258 7.08496 41.0449 7.08496ZM40.5287 9.72168L40.0009 10.1612L24.0692 23.4275C23.1599 24.1846 21.8399 24.1846 20.9308 23.4275L4.99913 10.1612L4.47126 9.72168H40.5287ZM2.63672 11.6252L15.6175 22.4343L2.63672 31.0733V11.6252ZM41.0449 35.2787H3.95508C3.31805 35.2787 2.78525 34.8245 2.66317 34.223L17.7316 24.1946L19.2437 25.4537C20.1871 26.2393 21.3436 26.6321 22.5001 26.6321C23.6566 26.6321 24.813 26.2393 25.7565 25.4537L27.2686 24.1946L42.3369 34.2229C42.2147 34.8246 41.682 35.2787 41.0449 35.2787ZM42.3633 31.0733L29.3825 22.4344L42.3633 11.6252V31.0733Z" />
-                </svg>
-            </a>
+                <a class="icon" href="mailto:hi@kotomi.cogdill.com"><svg viewBox="0 0 45 45"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M41.0449 7.08496H3.95508C1.77425 7.08496 0 8.85921 0 11.04V33.9603C0 36.1412 1.77425 37.9154 3.95508 37.9154H41.0449C43.2258 37.9154 45 36.1412 45 33.9603V11.04C45 8.85921 43.2258 7.08496 41.0449 7.08496ZM40.5287 9.72168L40.0009 10.1612L24.0692 23.4275C23.1599 24.1846 21.8399 24.1846 20.9308 23.4275L4.99913 10.1612L4.47126 9.72168H40.5287ZM2.63672 11.6252L15.6175 22.4343L2.63672 31.0733V11.6252ZM41.0449 35.2787H3.95508C3.31805 35.2787 2.78525 34.8245 2.66317 34.223L17.7316 24.1946L19.2437 25.4537C20.1871 26.2393 21.3436 26.6321 22.5001 26.6321C23.6566 26.6321 24.813 26.2393 25.7565 25.4537L27.2686 24.1946L42.3369 34.2229C42.2147 34.8246 41.682 35.2787 41.0449 35.2787ZM42.3633 31.0733L29.3825 22.4344L42.3633 11.6252V31.0733Z" />
+                    </svg>
+                </a>
 
+            </div>
+            <footer> <small> Hand-crafted by Kotomi</small> </footer>
         </div>
-        <footer> <small> Hand-crafted by Kotomi</small> </footer> 
-    </div>
 
 
 

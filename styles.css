@@ -557,6 +557,7 @@ li {
     padding-bottom: 2em;
     justify-content: center;
     max-width: 100%;
+    cursor: zoom-in;
 }
 
 .mirror-main-screen {
@@ -570,9 +571,7 @@ li {
 }
 
 
-.lightbox-link:hover img {
-    opacity: 0.5;
-}
+
 
 .lightbox {
     /* Default to hidden */
