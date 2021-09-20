@@ -523,27 +523,41 @@ li {
 
 .hero-all-about-matcha {
     background: #839B5C;
-    padding: 2em 0 1em;
+    padding: 4em 0 1em;
 }
 
 .matcha-hero {
-    max-width: 1000px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
+    display: block;
     color: #fff;
+    margin: 0 auto;
+    padding: 0 32px;
 }
 
 .matcha-hero-image {
-    max-width: 60%;
+    max-width: 100%;
 }
+
+
+@media (min-width: 600px) {
+    .matcha-hero-image {
+        max-width: 60%;
+    }
+    .matcha-hero {
+        max-width: 1000px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        color: #fff;
+    }
+}
+    
 
 .hero-brightwheel { 
     background: #5E64DB;
     display: flex;
     align-items: center;
-    padding-top: 2em;
+    padding-top: 4em;
     justify-content: center;
     max-width: 100%;
 } 
@@ -732,6 +746,46 @@ footer {
 
 
 
+.previous-case-study {
+    padding: 10vh 0;
 
+}
+.after-case-study {
+    padding: 10vh 0;
+    text-align: right;
 
+}
+.previous-color:link,
+.previous-color:visited {
+    color: #5E64DB;
+}
 
+.previous-color:hover {
+    color: #4C4949;
+}
+
+.previous-color-wtj:link,
+.previous-color-wtj:visited {
+    color:  #B78931;
+}
+
+.previous-color-wtj:hover {
+    color: #4c4949;
+}
+
+.previous-color-matcha:link,
+.previous-color-matcha:visited {
+    color:  #839B5C;
+}
+
+.previous-color-matcha:hover {
+    color: #4c4949;
+}
+
+.previous-after {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    align-items: center;
+    text-decoration: none;
+}
