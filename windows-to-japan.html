@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -65,7 +65,7 @@
         <div class="mirror-body">
             Windows to Japan is a travel company that provides customized tours to inbound travellers to Japan (I used
             to work there!).
-            Their primary focus is planning tours and booking hotels and activities for their clients, and giving
+            Their primary focus is planning tours, booking hotels and activities for their clients, and giving
             them physical travel files once they arrive in Japan. Windows to Japan also supports clients
             during their stay in the case of emergencies or just for general questions.
 
@@ -96,7 +96,7 @@
                 <li>Itineraries are usually overloaded with important information. How might we simplify the
                     contents when there is a lot of information? </li>
                 <li>Physical documents and digital apps bring users different experiences. How might we digitally
-                    optimize text-heavy physical documents??</li>
+                    optimize text-heavy physical documents?</li>
 
 
             </div>
@@ -117,9 +117,10 @@
     <div class="content mirror-body">
         <p>Competitive analysis</p>
         I was curious how other travel agencies transitioned from providing physical documents to their clients to
-        providing a full mobile experience. I decided to pick three itinerary to analyse apps because I couldn’t find
-        any competitors doing this. Some of them have similar features to what I envisioned, such as a chat bot and
-        access to travel agents within the app.
+        providing a full mobile experience. However, I couldn’t find any competitors doing this. Instead, I decided to
+        pick three itinerary apps and analyze how they organize travel information in their apps. Some of them have
+        similar features to what I envisioned, such as a chat bot and access to travel agents within the app. This gave
+        me some ideas of how to design an app with an integrated chat bot.
 
         <div>
 
@@ -134,10 +135,11 @@
         </div>
 
         <p>Survey</p>
-        I conducted a survey to find out the frustrations and needs there are for travel apps. I was also wondering if
-        there's anyone who has used a travel agency which provides itineraries via an app. For the survey recruiting, I
-        targeted people who have used travel apps to plan their trips rather than those who have used a travel agency. I
-        wanted to gather feedback about travel apps to prioritize features.
+        I conducted a survey to learn about the frustrations and needs that people have when using travel apps. I
+        focused the survey on travel apps rather than travel agencies in order to get a sense of what patterns and
+        formats people find useful in a digital platform. Gathering this feedback helped me to prioritize features for
+        the Windows to Japan app. In addition, I included a question asking participants if they have used a travel
+        agency with an app, since I could not find any myself. Unsurprisingly, none of them had.
 
 
         <div>
@@ -151,14 +153,12 @@
             </a>
 
             <p>1:1 User Interviews</p>
-            After the survey, I proceeded with user interviews to collect feedback of people who have used a travel
-            agency to plan their trips.
-            For this process, I wanted to discover the frustrations and needs of using physical or PDF itineraries.
-            From the interviews, I learned that all of the participants prefer having detailed itineraries, but they
-            also want
-            to easily skip uninteresting parts. This was interesting because I received the same feedback from the
-            survey—
-            all the participants want a detailed itinerary but in a simple format.
+            After the survey, I proceeded with user interviews to collect feedback on using travel agencies.
+            Specifically, I wanted to discover the frustrations and needs people have when 1) using PDF or printed
+            itineraries and 2) when connecting with an agent when a problem arises. From these interviews, I learned
+            that all of the participants prefer having detailed itineraries, but they also want to easily skip
+            uninteresting parts. This matched the feedback I received from the survey: all the survey participants want
+            a detailed itinerary but in a simple format.
 
             <br><br>
 
@@ -195,12 +195,11 @@
 
 
         <p>Persona</p>
-        Through my research, I collected and synthesized data. To organize user feedback, I created this persona to
-        filter down to just the important feedback. I tried to make this as
-        descriptive as possible so that I can easily empathize with her and design the app based on her needs and
-        frustrations. From the research, I identified that the top need is to have a detailed itinerary in a simple
-        format, such as bullet points.
-        Therefore, this is the main thing I focused on.
+
+        In order to keep in mind who I'm designing this app for, I summarized the important feedback into a single
+        persona, representing a core user.
+        I was able to quickly refer back to this persona during the whole design process, which helped me make
+        user-centered decisions.
 
         <div>
 
@@ -216,13 +215,9 @@
 
 
         <p>User Flow</p>
-        I decided to make a user flow because this app will be a little complicated to navigate. To make the app
-        less
-        complicated, I needed to better understand users in how they would take actions and how they
-        process their thoughts.
-        The flow ended up becoming complex, but I was able to modify the flow during the iteration process and
-        understand
-        what might be frustrating.
+        I decided to make a user flow in order to visualize how and when a user would take actions and navigate through
+        the app. I was able to understand which part of the app would be complicated and need extra attention. With this
+        flow clearly layed out, it makes it much easier to design a seamless user experience.
 
         <div>
 
@@ -250,19 +245,25 @@
     <div class="content mirror-body">
 
         <p>Sketches</p>
+        Before designing any wireframes, I decided to sketch the layout of the app to solidify my rough ideas. I
+        sketched just one version first to combine the ideas of the app layout I got from my competitive analysis and
+        inspirations. Then I sketched a second version with an improved layout, including a simpler itinerary page that
+        is easier to parse.
+        <div>
 
-        Before designing any wireframes, I decided to sketch the layout of the app. I was struggling at first
-        because I
-        had no idea what the app should look like. I sketched
-        just
-        one version first to combine the ideas I got from my inspirations. Then I sketched a second version since I
-        had
-        a better idea of how it would look.
+            <a href=#img-sketches-before class="lightbox-link">
+                <img class="mirror-content2" src="wtj-img/Sketches-before.jpg" alt="Sketches, version1">
+            </a>
 
+            <a href="#!" class="lightbox" id="img-sketches-before">
+                <span style="background-image: url('wtj-img/Sketches-before.jpg')"></span>
+            </a>
+
+        </div>
         <div>
 
             <a href=#img-sketches class="lightbox-link">
-                <img class="mirror-content2" src="wtj-img/Sketches.jpg" alt="Sketches">
+                <img class="mirror-content2" src="wtj-img/Sketches.jpg" alt="Sketches, version2">
             </a>
 
             <a href="#!" class="lightbox" id="img-sketches">
@@ -273,17 +274,14 @@
 
 
 
-        <p>Mid-Fidelity Wireframes</p>
-        To make the sketches come alive, I started to work on mid-fidelity wireframes based on the sketches, but it
-        wasn’t
-        as
-        intuitive as I thought it would be. After finishing the wireframes, I realized that it was somewhat
-        confusing to
-        navigate myself, so I decided to iterate. I was able to design it to be more intuitive and have fewer
-        screens.
-        However, I wasn’t sure if the swiping effect for events was clear. I thought of iterating on it to make it
-        clearer, but instead I decided to just include it in the usability test for the entire flow.
 
+        <p>Mid-Fidelity Wireframes</p>
+        Next I created mid-fidelity wireframes to focus on the app's usability before making the final designs. While
+        creating these wireframes, I focused on the flow of the app, looking for anything I could iterate on. After
+        finishing the wireframes, I realized that it was somewhat confusing to navigate myself, due to visual clutter. I
+        iterated on the design to make it more intuitive by removing unnecessary features. One thing I was unsure about
+        was whether the swiping effect for events was clear. Instead of iterating on it immediately, I opted to conduct
+        usability testing on it, along with the entire flow.
 
 
         <div>
@@ -327,21 +325,18 @@
         <a class="link"
             href="https://www.figma.com/proto/KbbHPLf2m5jmZazjOuph9m/WTJ-wireframes?page-id=0%3A1&node-id=129%3A6223&viewport=241%2C48%2C0.1&scaling=scale-down&starting-point-node-id=129%3A6223"
             target="_blank">View Prototype</a><br>
-        Since I wasn't sure the swiping effect was clear enough, I decided to conduct usability testing to receive
-        feedback from the users before making hi-fidelity designs.
-        I used two formats:
+        As mentioned above, I decided to conduct usability testing to receive feedback on the swiping effect before
+        making hi-fidelity designs. I used two formats:
         <ul>
             <li>Zoom (2 participants)</li>
             <li>Maze (7 participants)</li>
         </ul><br>
 
         <p>Affinity Map</p>
-        I created this affinity map to summarize user feedback and what can be improved in the next step.
-        Through the usability testing I verified that the majority of people found the swiping effect unintuitive. Also,
-        several participants mentioned that the edit icon was hard to find. I was glad to test the
-        wireframes at this point since I would have not known the edit icon was hard to find. Now, I knew which parts of
-        the
-        design to iterate on.
+        I created the affinity map below to summarize user feedback and see what can be improved. Through the usability
+        testing I verified that the majority of people found the swiping effect unintuitive. In addition to that,
+        several participants mentioned that the edit icon was hard to find. I was glad to test the wireframes at this
+        point since I would have not known the edit icon was hard to find.
 
         <div>
             <a href=#img-affinity-map class="lightbox-link">
@@ -359,14 +354,11 @@
 
 
         <p>Hi-Fidelity Responsive Design</p>
-        I worked on hi-fidelity designs based on the wireframes and feedback I received from the usability testing
-        in
+        I worked on hi-fidelity designs based on the wireframes and feedback I received from the usability testing in
         the previous process. Since travel itineraries on physical paper are usually overloaded with information, I
         aimed to make the design not text-heavy but still include all the important details. I focused on making the
-        interface (edit icons, CTA buttons) clean and understandable. While iterating on the hi-fidelity
-        wireframes, I
-        realized the font sizes were very small (12px), so I made them larger (16px). I thought it was large enough
-        since it appeared large on my screen.
+        interface (edit icons, CTA buttons) clean and understandable. While iterating on the hi-fidelity wireframes, I
+        realized the font sizes were very small (12-14px), so I made them larger (16px).
 
         <br><br>
 
@@ -419,42 +411,36 @@
         </ul>
 
         <p>Affinity Map</p>
-        Since I recruited more participants this time, usability testing revealed more feedback that helped me to
-        see my design objectively.
-        I wanted to make an affinity map again to summarize the user feedback and organize them. This helped me to
-        realize what I need to work on to make the design better.
+        Since I recruited more participants this time, usability testing revealed more feedback that helped me to see my
+        design objectively. I wanted to make an affinity map again to summarize the user feedback and organize them.
+        This helped me to realize what I need to work on to make the design better.
 
         <div>
             <a href=#img-hifi-affinity-map class="lightbox-link">
-                <img class="mirror-content2" src="wtj-img/WTJ-Affinity-Map-WTJ-Usability-test.jpg" alt="Affinity map">
+                <img class="mirror-content2" src="wtj-img/WTJ-Affinity-Map---WTJ-Usability-test.jpg" alt="Affinity map">
             </a>
 
             <a href="#!" class="lightbox" id="img-hifi-affinity-map">
-                <span style="background-image: url('wtj-img/WTJ-Affinity-Map-WTJ-Usability-test.jpg')"></span>
+                <span style="background-image: url('wtj-img/WTJ-Affinity-Map---WTJ-Usability-test.jpg')"></span>
             </a>
         </div>
 
         <p>Priority Revision</p>
-        After testing the app design, I was able to understand what was making users confused about the design. I
-        wanted
-        to make revisions since both the edit button and swiping effect weren't clear enough.
-
-        Besides the frustrations, I received a lot of good feedback about the app providing a detailed yet simple
-        and easy interface, which I what I was trying to achieve.
+        After testing the app design, I was able to understand what was making users confused about the design. I wanted
+        to make revisions since both the edit button and swiping effect weren't clear enough. Apart from the
+        frustrations, I received a lot of good feedback about the app providing a detailed yet simple interface, which
+        is what I was trying to achieve.
 
         <br>
 
         <div>
             <div class="mirror-content">
-                I tested this in the mid-fidelity wireframes, and I learned that it wasn't intuitive to swipe an event
-                without any explanations.
-                For that reason, I decided to include on-boarding screens in the hi-fidelity designs to make people
-                aware of the feature. In hi-fidelity
-                usability testing, I learned people still didn't realize they could swipe it even though some
-                participants
-                read the whole on-boarding screens (in the Zoom usability test).
-                I didn't want the feature to be undiscoverable, so I decided to include a pop-up screen on the itinerary
-                page so that it gets users' attention.
+                Through usability testing of the mid-fidelity wireframes, I learned that it wasn't intuitive to swipe an
+                event without any explanations. For this reason, I decided to include on-boarding screens in the
+                hi-fidelity designs to make people aware of the feature. In the hi-fidelity usability testing, I learned
+                people still didn't realize they could swipe even though some participants read the whole on-boarding
+                screens (in the Zoom usability test). I didn't want the feature to be undiscoverable, so I decided to
+                include a pop-up screen on the itinerary page to get users' attention.
             </div>
             <div>
                 <a href=#img-revision-popup class="lightbox-link">
@@ -469,11 +455,10 @@
 
         <div>
             <div class="mirror-content">
-                In the mid-fidelity usability test, I was aware of the edit icon being hard to find. I tried making it
-                more obvious in the hi-fidelity designs, but I discovered that the participants still have a hard time
-                finding it. I received some
-                feedback saying it's better to have text saying "edit" or "modify", so I decided to have both the edit
-                icon and text. I also moved it to the white part and made it bigger so that it's more prominent.
+                From the mid-fidelity usability test I knew that the edit icon was hard to find. I tried making it more
+                obvious in the hi-fidelity designs, the participants still had a hard time finding it. I received some
+                feedback saying it's better to have text saying "edit" or "modify", so I decided to have both the icon
+                and text. Additionally, I moved it onto the card and enlarged it to be more prominent.
             </div>
             <div>
                 <a href=#img-revision-edit class="lightbox-link">
@@ -487,10 +472,9 @@
         </div>
         <div>
             <div class="mirror-content">
-                One of the participants pointed out that "Choose an alternative option in the area" wasn't clear so he
-                couldn't find the alternative place.
-                After he said that, I realized that I didn't change the text size from 14px to 16px, so I changed it and
-                also made it bolder for better readability.
+                One of the participants struggled when asked to modify a plan, despite there being clear directions. I
+                realized that the text was not noticeable, so I changed the text size from 14px to 16px and bolded it
+                for better readability.
             </div>
             <div>
                 <a href=#img-revision-text class="lightbox-link">
