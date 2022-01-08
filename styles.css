@@ -789,3 +789,22 @@ footer {
     align-items: center;
     text-decoration: none;
 }
+
+
+.video-content {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 5em;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.video {
+    width: 100%;
+}
+
+
+.video-text {
+    font-weight: 700;
+    font-size: 36px;
+}
