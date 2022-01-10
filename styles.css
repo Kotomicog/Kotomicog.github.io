@@ -580,8 +580,7 @@ li {
 
 .mirror-content2 {
     align-items: center;
-    padding-top: 0.5em;
-    padding-bottom: 2em;
+    padding: 2em 0;
     justify-content: center;
     max-width: 100%;
     cursor: zoom-in;
@@ -805,6 +804,7 @@ footer {
 
 
 .video-text {
-    font-weight: 700;
-    font-size: 36px;
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 20px;
 }
