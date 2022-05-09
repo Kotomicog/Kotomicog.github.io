@@ -593,6 +593,19 @@ li {
     max-width: 100%;
 }
 
+.onething-hero {
+    color: #4C4949;
+    gap: 2em; /* Only supported on relative new browsers. */
+}
+
+.onething-hero > div {
+    flex: 50%;
+}
+
+.onething-hero-image {
+    width: 100%;
+}
+
 .mirror-content {
     align-items: center;
     padding-top: 3em;
@@ -806,6 +819,16 @@ footer {
     color: #4c4949;
 }
 
+.previous-color-one:link,
+.previous-color-one:visited {
+    color: #FFBD66;
+}
+
+.previous-color-one:hover {
+    color: #4c4949;
+}
+
+
 .previous-after {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -818,7 +841,6 @@ footer {
 .video-content {
     margin-top: 50px;
     align-items: center;
-
 }
 
 
@@ -842,4 +864,29 @@ footer {
     font-size: 24px;
     font-style: italic;
     margin-bottom: 20px;
+}
+
+
+
+.case-study-solution, .case-study-solution-landscape {
+    margin-top: 50px;
+}
+
+@media (min-width: 800px) {
+    .case-study-solution {
+        grid-template-columns: auto 1fr;
+        display: grid;
+        grid-gap: 5em;
+    }
+}
+
+.case-study-solution-image {
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+.case-study-solution-text {
+    font-size: 24px;
+    font-style: italic;
+    margin-bottom: 10px;
 }
