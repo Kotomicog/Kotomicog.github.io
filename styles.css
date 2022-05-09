@@ -838,6 +838,20 @@ footer {
 }
 
 
+.view-more-case-study {
+    text-align: right;
+}
+
+.view-more:link,
+.view-more:visited {
+    color: #4c4949;
+}
+
+.view-more:hover {
+    color: #C1D8AC;
+}
+
+
 .video-content {
     margin-top: 50px;
     align-items: center;
