@@ -490,6 +490,13 @@ p {
     margin: 30px 0;
 }
 
+.stage6 {
+    background-color: #BFE5FF;
+    width: 100%;
+    padding: 30px 0;
+    margin: 30px 0;
+}
+
 .stage-text {
     color: white;
 }
@@ -584,6 +591,20 @@ li {
     justify-content: center;
     max-width: 100%;
 }
+
+.hero-nextdelivery {
+    background: #BFE5FF;
+    display: flex;
+    align-items: center;
+    padding-top: 2em;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.hero-nextdelivery-text {
+    color: #4C4949;
+}
+
 
 .hero-1thing {
     background: #FFF3D9;
@@ -904,4 +925,12 @@ footer {
     font-size: 24px;
     font-style: italic;
     margin-bottom: 10px;
+}
+
+.footer-attribute {
+    color: #c4c4c4;
+}
+
+.footer-link:link, .footer-link:visited {
+    color: #c4c4c4;
 }
