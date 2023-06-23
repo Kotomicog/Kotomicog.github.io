@@ -509,6 +509,13 @@ p {
     margin-bottom: 60px
 }
 
+.objectives2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 32px;
+    margin-top: 20px;
+    margin-bottom: 60px
+}
 
 
 
@@ -850,6 +857,15 @@ footer {
     color: #4c4949;
 }
 
+.previous-color-sky:link,
+.previous-color-sky:visited {
+    color: #F6AA00;
+}
+
+.previous-color-sky:hover {
+    color: #4c4949;
+}
+
 
 .previous-after {
     display: grid;
@@ -933,4 +949,13 @@ footer {
 
 .footer-link:link, .footer-link:visited {
     color: #c4c4c4;
+}
+
+
+.statement {
+    margin: 0 400px;
+    padding: 0 32px;
+    max-width: 800px;
+    font-weight: 600;
+    text-align: center;
 }
