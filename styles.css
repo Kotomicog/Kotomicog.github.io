@@ -634,15 +634,23 @@ li {
 .onething-hero-image {
     width: 100%;
 }
-
-.mirror-content {
+.content-no-padding {
     align-items: center;
-    padding-top: 3em;
+    padding: 2em 0;
     justify-content: center;
     max-width: 100%;
 }
 
-.mirror-content2 {
+
+.content-top {
+    align-items: center;
+    padding-top: 2em;
+    justify-content: center;
+    max-width: 100%;
+    cursor: zoom-in;
+}
+
+.content-top-bottom {
     align-items: center;
     padding: 2em 0;
     justify-content: center;
