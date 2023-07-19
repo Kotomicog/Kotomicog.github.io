@@ -339,7 +339,7 @@ p {
 
 
 .link {
-    color: #C1D8AC;
+    color: #608959;
 }
 
 .link:hover {
@@ -959,6 +959,9 @@ footer {
     color: #89898C;
 }
 
+.footer-link:hover {
+    color: #608959;
+}
 
 .statement {
     margin: 0 400px;
