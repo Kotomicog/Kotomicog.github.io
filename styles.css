@@ -248,8 +248,7 @@ p {
     display: block;
     fill: #C1D8AC;
     fill-opacity: 1;
-    margin-top: -1px;
-
+    margin: -1px 0; /* Fix background hairline leaking between. */
 }
 
 .work {
@@ -443,7 +442,7 @@ p {
 .wave-bottom {
     fill: #C1D8AC;
     display: block;
-
+    margin-bottom: -1px; /* Fix background hairline leaking between. */
 }
 
 .footer-green {
