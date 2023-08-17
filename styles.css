@@ -502,22 +502,13 @@ p {
 }
 
 .objectives {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 32px;
     margin-top: 20px;
-    margin-bottom: 60px
-}
-
-.objectives2 {
+    margin-bottom: 60px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 32px;
-    margin-top: 20px;
-    margin-bottom: 60px
+    /* Choose the most possible columns such that each column is at least 125px wide. */
+    grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
 }
-
-
 
 .mirror-grid {
     display: grid;
@@ -624,16 +615,18 @@ li {
 
 .onething-hero {
     color: #4C4949;
-    gap: 2em; /* Only supported on relative new browsers. */
+    gap: 2em;
+    /* Only supported on relative new browsers. */
 }
 
-.onething-hero > div {
+.onething-hero>div {
     flex: 50%;
 }
 
 .onething-hero-image {
     width: 100%;
 }
+
 .content-no-padding {
     align-items: center;
     padding: 2em 0;
@@ -928,7 +921,8 @@ footer {
 
 
 
-.case-study-solution, .case-study-solution-landscape {
+.case-study-solution,
+.case-study-solution-landscape {
     margin-top: 50px;
 }
 
@@ -955,7 +949,8 @@ footer {
     color: #89898C;
 }
 
-.footer-link:link, .footer-link:visited {
+.footer-link:link,
+.footer-link:visited {
     color: #89898C;
 }
 
@@ -964,14 +959,10 @@ footer {
 }
 
 .statement {
-    margin: 0 400px;
-    padding: 0 32px;
-    max-width: 800px;
-    font-weight: 600;
     text-align: center;
+    padding: 0 32px;
+    font-weight: 600;
 }
-
-
 
 .category-title {
     font-size: 20px;
