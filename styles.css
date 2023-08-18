@@ -454,6 +454,11 @@ p {
     font-size: 18px;
 }
 
+.annotation {
+    font-size: 18px;
+    margin: 1rem 0 0.5rem 0;
+}
+
 .stage {
     background-color: #d38b5bcb;
     width: 100%;
