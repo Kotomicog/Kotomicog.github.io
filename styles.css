@@ -248,7 +248,8 @@ p {
     display: block;
     fill: #C1D8AC;
     fill-opacity: 1;
-    margin: -1px 0; /* Fix background hairline leaking between. */
+    margin: -1px 0;
+    /* Fix background hairline leaking between. */
 }
 
 .work {
@@ -337,8 +338,10 @@ p {
 
 
 
-.link {
+.link,
+.link:visited {
     color: #608959;
+    text-decoration: none;
 }
 
 .link:hover {
@@ -442,7 +445,8 @@ p {
 .wave-bottom {
     fill: #C1D8AC;
     display: block;
-    margin-bottom: -1px; /* Fix background hairline leaking between. */
+    margin-bottom: -1px;
+    /* Fix background hairline leaking between. */
 }
 
 .footer-green {
@@ -607,6 +611,34 @@ li {
     color: #4C4949;
 }
 
+.hero-shopifyapps {
+    background: #abb8c3;
+    display: flex;
+    align-items: center;
+    padding: 2em;
+    justify-content: center;
+    max-width: 100%;
+    flex-wrap: wrap;
+}
+
+.shopifyapps-spacer {
+    width: 2em;
+}
+
+.shopifyapps-spacer-small {
+    width: 0.5em;
+}
+
+.shopifyapps-logo {
+    max-width: 100%;
+}
+
+@media (min-width: 600px) {
+    .shopifyapps-logo {
+        max-width: 20%;
+    }
+}
+
 
 .hero-1thing {
     background: #FFF3D9;
@@ -615,6 +647,7 @@ li {
     padding-top: 2em;
     justify-content: center;
     max-width: 100%;
+
 }
 
 .onething-hero {
@@ -871,6 +904,15 @@ footer {
     color: #4c4949;
 }
 
+.previous-color-shopify:link,
+.previous-color-shopify:visited {
+    color: #64943E;
+}
+
+.previous-color-shopify:hover {
+    color: #4c4949;
+}
+
 
 .previous-after {
     display: grid;
@@ -972,4 +1014,37 @@ footer {
     font-size: 20px;
     font-weight: 600;
     margin: 4rem 0 0.5rem 0;
+}
+
+.shopifyapps {
+    /* border: 1px solid #eee; */
+    padding: 1em;
+    border-radius: 16px;    
+}
+
+.shopifyapps img {
+    height: 2em;
+}
+
+.shopifyapps-list {
+    padding: 1em 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* gap: 1em; */
+}
+
+.shopifyappslink {
+    display:flex;
+    align-items: center;
+}
+
+
+.shopify-link,
+.shopify-link:visited {
+    color: #4C4949;
+    text-decoration: none;
+}
+
+.shopify-link:hover {
+    color: #608959;
 }
