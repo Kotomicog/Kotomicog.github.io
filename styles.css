@@ -1092,3 +1092,14 @@ footer {
 
 
 }
+
+.two-images {
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    gap: 2em;
+    padding: 1em 0 2em 0;
+}
+
+.two-image {
+    width: 100%;
+}
